@@ -1,0 +1,52 @@
+.navbar {
+	background-color: transparent;
+	transition: 0.8s ease-in-out;
+	position: absolute;
+	widows: 100%;
+	&.scroll {
+	background-color: $navbar !important;
+	z-index: 11;
+	position: fixed;
+}
+}
+
+
+@media screen and (max-width: 480px) {
+	.navbar.scroll {
+		background-color: transparent !important;
+	}
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+
+// nav .navbar .navbar-default .navbar-fixed-top {
+// 	background-color: darkgrey;
+// 	border-color: transparent;
+// 	.btn-default {
+// 		background-color: gray;
+// 		color: white;
+// 		border-radius: 25px;
+// 	}
+// 	.navbar-toggle {
+// 		float: left;
+// 	}
+// 	.btn.btn-default.crear-perfil {
+// 		float: right;
+// 		background-color: $naranja;
+// 		border-color: $naranja;
+// 		margin: 7px;
+// 	}
+// 	li {
+// 	  font-size: 18px;
+// 	  padding: 0px 14px;
+// 	}
+// 	.scroll {
+// 	background-color: red!important;
+// 	white: 100%;
+// 	z-index: 11;
+// 	}
+
+// }

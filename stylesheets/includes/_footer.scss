@@ -1,0 +1,22 @@
+footer {
+	background-color: $gris;
+	ul {
+		list-style: none;
+		bottom: 14px;
+  		position: relative;
+  		display: inline-block;
+		li {
+			float: left;
+			img {
+				border-radius:50px;
+				margin: 0px 7px;
+			}
+		}
+	}
+	.derechos-reservados {
+	    position: relative;
+		float: right;
+		color: white;
+		padding: 14px;
+	}
+}

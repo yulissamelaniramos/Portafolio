@@ -1,0 +1,86 @@
+//Colocar aquí clases utilitarias para todo el sitio. Por ejemplo: márgenes, alineación de texto y color de texto.
+$margins-paddings: ("p": "padding", "m": "margin", "pt": "padding-top", "pb": "padding-bottom", "pl": "padding-left", "pr": "padding-right", "mt": "margin-top", "mb": "margin-bottom", "ml": "margin-left", "mr": "margin-right");
+// \\ Negative Margins & Paddings
+@each $mp-class, $mp-property in $margins-paddings {
+	@for $h from 0 to 11 {
+	  .#{$mp-class}-#{$h*7} {
+	    #{$mp-property}: rem($h*7)!important;
+	    #{$mp-property}: ($h*7) + px !important;
+	  }
+	}
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.mb {
+	margin-bottom: 49px;
+}
+
+$celeste: #58C6E7;
+$gris: #9E9D9D;
+$gris-claro: #eeeeee;
+$naranja: #ff4016;
+$verde-limon: #77d248;
+$amarillo:#fcf07e;
+$mostaza: #ffd13f;
+$tomate:tomato;
+$navbar: #f0fbfd;
+
+h1, h2, h3, h4, h5, h6, p, a, strong {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.4;
+}
+h1 {
+	margin-top: 35px;
+}
+p, li, input.form-control, textarea.form-control {
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.container.text-center, .container {
+  padding: 56px 84px 42px;
+}
+
+.centrar {
+	padding: 0px 114px;
+}
+.flecha.text-center, .flecha.arriba {
+  bottom: -145px;
+  position: relative;
+  img {
+  	border-radius: 50%;
+  }
+}
+.pt {
+	padding-top: 42px;
+}
+
+.mt {
+	margin-top: 35px;
+}
+
+.btn-contactos,
+.btn-contactos-celeste {
+	padding: 14px 49px;
+	font-size: 18px;
+	border-radius: 14px;
+}
+
+.btn-contactos {
+	background-color:$naranja;
+	border-color: $naranja;
+}
+.btn-contactos-celeste {
+		background-color:$celeste;
+		border-color: white;
+}

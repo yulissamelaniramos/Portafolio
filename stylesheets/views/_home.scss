@@ -1,0 +1,674 @@
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  position: absolute;
+  width: 100%;
+  height: 74px;
+}
+
+.navbar-right {
+  float: right!important;
+  margin-right: -15px;
+  padding-top: 1%;
+}
+
+
+#menu-nav nav.navbar.navbar-default a {
+  color: #25E0E8;
+  font-family: playball;
+  font-size: 26px;
+}
+
+#menu-nav nav.navbar.navbar-default p{
+  color: #25E0E8;
+  line-height: 1.8;
+  font-family: playball;
+  font-size: 31px;
+  
+}
+
+.mediana{
+  height: 284px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.header img {
+  width: 100%;
+
+}
+.overlay{
+  background-color: rgba(37, 35, 35, 0.53);
+  height: 948px;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+  .text-vertical {
+  text-align: center;
+  padding:20px;
+  position:absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.text-vertical h1{
+  margin-top: 21%;
+  color: white;
+  font-size: 119px;
+  font-family: playball;
+
+}
+
+.text-vertical h3{
+    margin: 0;
+  color: white;
+  font-size: 29px;
+  font-family: lobster;
+}
+
+.header img {
+  width: 100%;
+
+}
+.overlay-cel{
+  background-color: rgba(37, 35, 35, 0.53);
+  height: 183px;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+  .text-vertical-cel {
+  text-align: center;
+  padding:20px;
+  position:absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.text-vertical-cel h1{
+  margin-top: 13%;
+  color: white;
+  font-size: 42px;
+  font-family: playball;
+}
+
+.text-vertical-cel h3{
+  margin: 0;
+  color: white;
+}
+
+
+
+ .row{
+  margin: 0;
+ }
+
+
+  #marca {
+  background-color: white;
+   }
+
+  .container-fluid {
+  padding:0;
+}
+
+#marca .centrar {
+  padding: 7% 0px;
+}
+
+#marca .centrar .logo {
+  padding-bottom: 5%;
+  margin: 0 auto;
+  width: 200px;
+}
+
+
+#marca .centrar p {
+  font-size: 25px;
+  color: #00838F;
+  font-family: Roboto;
+  line-height: 1.5;
+}
+
+#marca-cel {
+  background-color: white;
+   }
+
+  .container-fluid {
+  padding:0;
+}
+
+#marca-cel .centrar-cel {
+  padding: 7% 0px;
+}
+
+#marca-cel .centrar-cel .logo-cel {
+  padding-bottom: 5%;
+  margin: 0 auto;
+  width: 200px;
+}
+
+
+#marca-cel .centrar-cel p {
+  font-size: 25px;
+  color: #00838F;
+  font-family: Roboto;
+  line-height: 1.5;
+}
+#menu-nav nav.navbar.navbar-default {
+  margin-bottom: 0px;
+   background-color: rgba(128, 128, 128, 0.15);
+  opacity: 1;
+  border-color:rgba(128, 128, 128, 0.15);
+  border-radius: 0px;
+  position:fixed;
+   }
+
+   #menu-nav .container-fluid {
+  padding: 0px 6%;
+}
+
+.navlogo {
+  width: 120px;
+  margin-top: -8px;
+}
+
+#menu-nav nav.navbar.navbar-default a {
+  color: #25E0E8;
+}
+
+
+#about_wrapper {
+  position: relative;
+  background-color: #F7F7F7;
+}
+
+.about_image img {
+  position: absolute;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  padding: 4% 4%;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.about_content {
+  padding: 70px;
+  padding-right: 0;
+}
+
+.about_title p {
+  margin-bottom: 35px;
+  font-size: 31px;
+  text-align: left;
+  font-family: playball;
+    color: gray;
+    text-align: center;
+}
+
+
+.parrafo-largo p {
+  font-family: Roboto;
+  color: #847C7C;
+  line-height: 1.8;
+  font-size: 17px;
+  text-align: center;
+}
+
+
+.divider_padding {
+  padding: 30px 0px;
+}
+
+.skill h4 {
+  margin-bottom: 5px;
+}
+
+h4, .h4 {
+  font-size: 14px;
+}
+
+.skill .skillbar {
+  height: 36px;
+  background: #E7E4E4;
+  margin: 0 0 10px 0;
+}
+
+.skill .bar {
+  height: 35px;
+  background-color: rgba(91, 95, 95, 0.67);
+}
+
+.percent {
+  float: right;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.centrar {
+  padding: 7% 0px;
+}
+
+
+.page_subtitle {
+  color: #909090;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h2 {
+  font-family: Roboto;
+}
+
+
+
+b, strong {
+  font-weight: bold;
+}
+
+#recent-projects {
+  padding-bottom: 3em;
+}
+
+h2 {
+  font-family: "proxima-nova-n4","proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  line-height: 1.3em;
+  text-align: center;
+  margin-bottom: 2.5em;
+  color: #2a2827;
+}
+
+.inline, ol.inline {
+  margin-left: 0;
+  list-style: none;
+}
+
+
+.subtitulo p {
+  font-family: playball;
+  font-style: normal;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 2.5em;
+  color: #3F7B91;
+}
+
+.subtitulo-cel p {
+  font-family: playball;
+  font-style: normal;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 2.5em;
+  color: #3F7B91;
+}
+
+.proyectos p {
+  text-align: center;
+  margin-bottom: 2.5em;
+  color: #57AEB2;
+  padding-top: 7%;
+  font-size: 52px;
+  font-family: lobster;
+}
+
+.inline, ol.inline {
+  margin-left: 0;
+  list-style: none;
+  padding:0 10%;
+}
+
+#recent-projects .inline>.thumbnail {
+  width: 31%;
+  margin: 0;
+}
+
+.inline>.thumbnail a h2 {
+  text-align: center;
+  display: block;
+  padding-top: 1em;
+  font-size: .9em;
+  height: 2em;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.title p{
+  font-size: 60px !important;
+  text-align: center;
+  color: #57AEB2;
+  font-family: playball;
+  padding-top: 5.5%;
+}
+
+
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid white;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+
+.title{
+  background:url(../img/reloj.png);
+  width: 100%;
+  height: 285px;
+  background-size: cover;
+
+}
+
+.col-md-12 {
+  width: 100%;
+  padding: 0;
+}
+
+.footer{
+  background-color:black;
+}
+
+.redes{
+  width: 6%;
+  margin-left: 66%;
+}
+
+.facebook{
+  position: relative;
+  top: 39px;
+}
+
+.tuiter{
+    position: relative;
+  left: 42px;
+  top: 7px;
+}
+
+.github{
+  left: 84px;
+  top: -25px;
+  position: relative;
+}
+
+.texto p{
+  color: white;
+  font-size: 20px;
+  font-family: lobster;
+  padding-top: 9%;
+  margin-left: 6%;
+}
+
+
+
+
+.about_title-cel p{
+  font-size: 40px;
+  color: #57AEB2;
+  font-family: playball;
+  text-align: center;
+  padding-top: 22%;
+}
+
+.parrafo-largo-cel p{
+  color: gray;
+  font-size: 15px;
+}
+
+.proyectos-cel{
+  text-align: center;
+  margin-bottom: 1em;
+  color: #57AEB2;
+  padding-top: 18%;
+  font-size: 45px;
+  font-family: playball;
+}
+
+.title-cel {
+  background: url(../img/reloj.png);
+  width: 100%;
+  height: 167px;
+  background-size: cover;
+}
+
+.title-cel p {
+  font-size: 33px !important;
+  text-align: center;
+  color: #57AEB2;
+  font-family: playball;
+  padding-top: 11.5%;
+}
+
+.text-center-cel{
+  color: #57AEB2;
+  font-size: 18px;
+  font-family: lobster;
+  padding-top: 6%;
+  margin: 0;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.footer-cel{
+  background-color:#CBCDCD;
+}
+
+.texto-cel p{
+  color: white;
+  font-size: 18px;
+  font-family: lobster;
+  margin: 0;
+  padding-bottom: 6%;
+  padding-top: 5%;
+}
+
+.texto-cel{
+  margin-left: 2%;
+}
+
+.mediana-cel{
+  height: 216px;
+}
+
+#contactos .formulario .llamanos {
+  color: gray;
+  padding: 21px 0px;
+  padding-bottom: 18%;
+}
+
+.posicionamiento p{
+  color: gray;
+  font-size: 29px;
+  font-family: roboto;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+
+.ex3 img {
+border: 5px solid #eee;
+-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+height: 272px;
+}
+.ex3 img:hover {
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-ms-transform: rotate(-7deg);
+transform: rotate(-7deg);
+}
+
+.ex4 img {
+border: 5px solid #eee;
+-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+height: 209px;
+}
+.ex4 img:hover {
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-ms-transform: rotate(-7deg);
+transform: rotate(-7deg);
+}
+
+
+.lower {
+  margin: 0 auto;
+  background-image: url(../img/reloj.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 25%;
+  border-bottom: 3%;
+}
+
+.lower p{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: lobster;
+}
+
+
+.lower2 {
+  margin: 0 auto;
+  background-image: url(../img/reloj.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5%;
+  border-bottom: 3%;
+}
+
+.lower2 p{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: lobster;
+}
+
+.logos{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logos-cel{
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom:16%;
+}
+
+.titulo-contacto p{
+  color: gray;
+  font-family: roboto;
+  font-size: 26px;
+  text-align: center;
+  padding: 2% 29%;
+  padding-bottom: 8%;
+}
+
+.titulo p{
+  color: #57AEB2;
+  font-family: lobster;
+  font-size: 52px;
+  padding-top: 10%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.lower-frase {
+  margin: 0 auto;
+  background-image: url(../img/reloj.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5%;
+  border-bottom: 3%;
+}
+
+.lower-frase p{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: lobster;
+}
+
+.frase{
+  padding-top: 9%;
+  padding-bottom: 2%;
+}
+
+.borde{
+  border-bottom: 2px solid gray;
+  width: 32%;
+  margin: 0 auto;
+  position: relative;
+  top: -38px;
+}
+
+.border{
+ border-bottom: 2px solid gray;
+  width: 23%;
+  margin: 0 auto;
+  position: relative;
+  top: -103px;
+}
+
+
+.titulo-contacto-cel p {
+  color: gray;
+  font-family: roboto;
+  font-size: 18px;
+  text-align: center;
+  padding: 2% 3%;
+  padding-bottom: 24%;
+}
+
+.titulo-cel p {
+  color: #57AEB2;
+  font-family: lobster;
+  font-size: 40px;
+  text-align: center;
+}
+
+li a:hover{
+  color: orange;
+}
+
