@@ -9,6 +9,33 @@
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <header>
+      <div class="barra hidden-lg">
+        <div class="menu_bar ">
+          <a href="#" class="bt-menu"><span class="icon-list2"></span>Yulissa</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#sobre-cel"><span class="icon-house"></span>Sobre mi</a></li>
+            <li><a href="#projectos-cel"><span class="icon-suitcase"></span>Projectos</a></li>
+            <li><a href="#contactos-cel"><span class="icon-rocket"></span>Contáctame</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <nav class="navbar navbar-default hidden-xs">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+          <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about_wrapper">Sobre mí</a></li>
+            <li><a href="#projectos">Projectos</a></li>
+            <li><a href="#footer">Coctáctame</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     <div class="container-fluid">
       <div id="header" class="header hidden-xs">
         <div class="row">
@@ -31,39 +58,9 @@
           <div class="col-md-12 col-xs-12">
             <div class="overlay-cel"></div>
             <img src="img/laptop.jpg">
-            <div class="text-vertical-cel">
-              <div class="row">
-                <div class="col-md-12 col-xs-12">
-                  <h1>Yulissa Ramos</h1>
-                  <h3>Desarrolladora Web</h3>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
-      <section id="menu-nav">
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand hidden-xs" href="#header"><p>Yulissa</p></a>
-            </div>
-            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about_wrapper">Sobre mi</a></li>
-                <li><a href="#projectos">Projectos</a></li>
-                <li><a href="#footer">Contáctame</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-      </section>
       <div id="marca hidden-xs">
         <div class="container-fluid text-center hidden-xs">
           <div class="row">
@@ -104,7 +101,7 @@
          <div class="container  hidden-lg">
           <div class="row">
             <div class="col-md-6 col-md-offset-6 col-xs-12">
-              <div class="about_content-cel">
+              <div id="sobre-cel" class="about_content-cel">
                 <div class="about_title-cel"><p>Sobre mi</p></div>
                 <div class="parrafo-largo-cel">
                   <p>Soy desarrolladora Web, tengo 17 años. Apta para realizar cualquier proyecto , Soy una persona con una mentalidad fresca para absorver cualquier aprendizaje que realize, confio en mi misma , que siendo desarrolladora puedo alcanzar muchas metas , Soy muy perseverante y persistente y siempre me gusta hacer las cosas bien y que no hay obsatculos que me detenga. </p>
@@ -180,7 +177,7 @@
           </div>
         </div>
       </section>
-      <section id="recent-projects">
+      <section id="projectos-cel" id="recent-projects">
         <div class="proyectos-cel hidden-lg">
           <p>Projectos</p>
         </div>
@@ -270,7 +267,7 @@
       <div class="lower hidden-xs">
         <p>Si se puede <strong>imaginar</strong>,se puede programar</p>
       </div>
-      <div id="footer" class="footer hidden-xs">
+      <div  id="footer" class="footer hidden-xs">
         <div class="row">
           <div class="col-md-3">
             <div class="texto">
@@ -293,13 +290,17 @@
           </div>
         </div>
       </div>
-      <div class="footer-cel hidden-lg">
+      <div id="contactos-cel" class="footer-cel hidden-lg">
         <div class="texto-cel">
           <p>yulissa.ramos.r@gmail.com</p>
         </div>
       </div>
     </div>
-    <script src="jquery.min.js"></script>
-    <script src="bootstrap.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Javascripts de Bootstrap -->
+    <script src="javascript/b3/collapse.js"></script>
+    <script src="javascript/b3/transition.js"></script>
+    <script src="prueba.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   </body>
 </html>
