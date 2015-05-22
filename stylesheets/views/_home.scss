@@ -526,7 +526,9 @@ a{
 
 .parrafo-largo-cel p{
   color: gray;
-  font-size: 15px;
+  font-family: roboto;
+  font-size: 18px;
+  text-align:center;
 }
 
 .proyectos-cel{
@@ -677,7 +679,7 @@ transform: rotate(-7deg);
 }
 
 .logos-cel{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding-bottom:16%;
 }
@@ -743,9 +745,9 @@ transform: rotate(-7deg);
 .titulo-contacto-cel p {
   color: gray;
   font-family: roboto;
-  font-size: 18px;
+  font-size: 17px;
   text-align: center;
-  padding: 2% 3%;
+  padding: 2% 8%;
   padding-bottom: 24%;
 }
 
