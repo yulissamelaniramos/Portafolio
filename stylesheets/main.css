@@ -5606,7 +5606,10 @@ section {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: playball; }
+    font-family: playball;
+    position: fixed;
+    z-index: 10000;
+    width: 100%; }
 
   .menu_bar span {
     float: right;

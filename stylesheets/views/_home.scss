@@ -110,14 +110,18 @@ section {
     box-sizing:border-box;
     
     font-family: playball;
-    
-  }
+    position: fixed;
+  z-index: 10000;
+  width: 100%;
+ }
  
   .menu_bar span {
     float:right;
     font-size:40px;
   }
 }
+
+
 
 .menu_bar2 {
     display:block;
