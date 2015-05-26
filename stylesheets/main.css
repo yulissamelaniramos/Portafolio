@@ -5534,7 +5534,7 @@ button.close {
 .navbar-default .navbar-nav > li > a {
   color: #31B7D7;
   font-size: 28px;
-  font-family: playball;
+  font-family: lobster;
   padding-bottom: 17%; }
 
 header {
@@ -5753,9 +5753,9 @@ img {
 
 .about_title p {
   margin-bottom: 35px;
-  font-size: 31px;
+  font-size: 30px;
   text-align: left;
-  font-family: playball;
+  font-family: lobster;
   color: gray;
   text-align: center; }
 
@@ -5829,9 +5829,9 @@ h2 {
   list-style: none; }
 
 .subtitulo p {
-  font-family: playball;
+  font-family: lobster;
   font-style: normal;
-  font-size: 23px;
+  font-size: 22px;
   text-align: center;
   margin-bottom: 2.5em;
   color: #3F7B91; }
