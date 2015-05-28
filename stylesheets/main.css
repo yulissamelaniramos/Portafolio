@@ -5636,9 +5636,6 @@ section {
   float: right;
   font-size: 40px; }
 
-.mediana {
-  height: 284px; }
-
 img {
   width: 100%;
   height: 100%; }
@@ -5836,8 +5833,9 @@ h2 {
   font-style: normal;
   font-size: 22px;
   text-align: center;
-  margin-bottom: 2.5em;
-  color: #3F7B91; }
+  margin-bottom: 0.5em;
+  color: #3F7B91;
+  padding-top: 11%; }
 
 .subtitulo-cel p {
   font-family: playball;
@@ -6046,7 +6044,7 @@ a {
 
 .lower p {
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   color: white;
   font-family: lobster; }
 
@@ -6062,7 +6060,7 @@ a {
 
 .lower2 p {
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   color: white;
   font-family: lobster; }
 
@@ -6078,9 +6076,9 @@ a {
 .titulo-contacto p {
   color: gray;
   font-family: roboto;
-  font-size: 26px;
+  font-size: 24px;
   text-align: center;
-  padding: 2% 29%;
+  padding: 0% 31%;
   padding-bottom: 8%; }
 
 .titulo p {
@@ -6103,7 +6101,7 @@ a {
 
 .lower-frase p {
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   color: white;
   font-family: lobster; }
 
